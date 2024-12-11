@@ -1,0 +1,30 @@
+.modal-header{
+  height: 70px;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #53A856;
+}
+
+.modal-header h1{
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFFFFF;
+  margin-left: 30px;
+}
+
+.modal-header img{
+  width: 40px;
+  height: 40px;
+  background-color: #53A856;
+}
+
+.modal-header button{
+  border-radius: 0 20px 0 0; 
+  background-color: #53A856;
+  border: none;
+  cursor: pointer;
+}

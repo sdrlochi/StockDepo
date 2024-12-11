@@ -1,0 +1,17 @@
+.input-modal-name{
+  width: 400px;
+  height: 45px;
+  border: none;
+  margin: 20px 0 0 30px;
+}
+
+.input-modal-name::placeholder{
+  width: 400px;
+  height: 45px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #3E4153;
+}

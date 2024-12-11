@@ -1,0 +1,49 @@
+.inside-btn{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rectangle37{
+  width: 40px;
+  height: 40px;
+  background: #5DDB62;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-new{
+  width: 30px;
+  height: 30px;
+}
+
+.text-btn{
+  width: 143px;
+  height: 27px;
+  opacity: 0.9px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  /* color: #FFFFFF; */
+  color: var(--secondary-text-color);
+}
+
+@media only screen and (max-width: 768px) {
+  .inside-btn{
+    width: 180px;
+    height: 30px;
+  }
+
+  .rectangle37{
+    width: 20px;
+    height: 20px;
+  }
+    
+  .text-btn{
+    font-size: 10px;
+}
+}

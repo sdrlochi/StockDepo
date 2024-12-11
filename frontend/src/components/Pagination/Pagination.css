@@ -1,0 +1,25 @@
+.pagination{
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.elipse{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #A8A8A8;
+  background: #D9D9D900;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #A8A8A8;
+  background: #A8A8A8;
+  margin: 5px;
+  cursor: pointer;
+}

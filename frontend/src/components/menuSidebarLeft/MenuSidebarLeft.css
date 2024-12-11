@@ -1,0 +1,136 @@
+.menu-panel{
+  width: 100%;
+  height: 100%;
+  max-width: 350px;
+  /* max-height: 1080px; */
+  float: left;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #53A856;
+  transition: 0.5s;
+  /* margin-right: 75px; */
+}
+ 
+.logo{
+  width: 100%;
+  max-width: 345.07px;
+  max-height: 190px;  
+  margin: 0;
+}
+
+.sidebar-navigation{
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  max-width: 281.42px;
+  max-height: 860px;
+}
+
+.dashboard-link,
+.items-nav-link,
+.reports-link,
+.suppliers-link,
+.signout{
+  max-width: 280px;
+  max-height: 60px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.dashboard-link:hover,
+.items-nav-link:hover,
+.reports-link:hover,
+.suppliers-link:hover,
+.signout:hover:hover{
+  background-color: rgba(255, 255, 255, 0.733);
+  transform: scale(1.04);
+}
+
+.menu-panel h1{
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+
+.dashboard-img,
+.product,
+.combo-chart,
+.shutdown{
+  width: 100%;
+  height: 100%;
+  max-width: 39.44px;
+  max-height: 43.64px;
+  margin: 0 10px;
+}
+
+.reports-nav-link{
+  width: 100%;
+  height: 100%;
+  max-width: 281.42px;
+  padding-bottom: 50px;
+}
+
+.suppliers-link{
+  margin-bottom: 300px; /*check again*/
+  padding-left: 65px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .menu-panel{
+    width: 70%;
+    height: auto;
+  }
+
+  .sidebar-navigation{
+    width: 70%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .menu-panel{
+    width: 100px;
+  }
+
+  .sidebar-navigation{
+    width: 100%;
+  }
+
+  .dashboard-link h1,
+  .items-nav-link h1,
+  .reports-link h1,
+  .signout h1 {
+    display: none;
+  }
+
+  .dashboard-link,
+  .items-nav-link,
+  .reports-link,
+  .signout{
+    width: 50%;
+    height: 50%;
+    margin-bottom: 10px;
+  }
+
+  .suppliers-link{
+    width: 50%;
+  }
+
+  .suppliers-link h1{
+    width: 50px;
+    font-size: 8px;
+    text-align: left;
+  }
+ 
+}

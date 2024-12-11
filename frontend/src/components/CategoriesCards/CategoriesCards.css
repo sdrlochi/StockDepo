@@ -1,0 +1,130 @@
+.main-card-category {
+  width: 100%;
+  max-width: 1170px;
+  height: 100%;
+  min-height: 650px;
+  margin-left: 95px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.category-cards-container {
+  width: 240px;
+  height: 270px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 4px 0px #00000040;
+  background-color: var(--background-two);
+  margin-bottom: 20px;
+}
+
+.images3-container {
+  width: 240px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.image1 {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px 0 0 0;
+}
+
+.image2-3 {
+  width: 120px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image2 {
+  flex: 1;
+  display: flex;
+}
+
+.image3 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+}
+
+.image2 img {
+  width: 120px;
+  height: 70px;
+  border-radius: 0px 8px 0px 0px;
+}
+
+.image3 img {
+  width: 120px;
+  height: 70px;
+}
+
+.card-bottom {
+  width: 240px;
+  height: 130px;
+}
+
+.card-category-text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: var(--primary-text-color);
+  margin: 2px 0 2px 20px;
+}
+
+.content-category-text {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: var(--category-text-color);
+  margin: 2px 0 0 20px;
+}
+
+.updated-category {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: var(--category-text-color);
+  margin-left: 20px;
+}
+
+.date-remove {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.delete-category {
+  width: 40px;
+  height: 40px;
+  background: #d9d9d9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-category:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 767px) {
+  .card-category-text {
+    font-size: 16px;
+  }
+
+  .updated-category {
+    font-size: 12px;
+  }
+}

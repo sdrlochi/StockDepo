@@ -1,0 +1,28 @@
+.login-register{
+  margin: 0 auto;
+  width: 500px;
+  height: 650px;
+  background-color: var(--foreground-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 0px #00000040;
+  border: none;
+  padding-bottom: 50px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .header-section{
+    width: 50%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .header-section{
+    width: 30%;
+    height: auto;
+  }
+}

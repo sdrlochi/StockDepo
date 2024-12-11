@@ -1,0 +1,32 @@
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(22, 19, 19, 0.5);
+}
+
+.modal-container-discard-confirm{
+  width: 600px;
+  height: 240px;  
+  border-radius: 20px;
+  background-color: var(--background-two);
+  box-shadow: 4px 4px 4px 0px #00000040;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+}
+
+.modal-container-discard-confirm p{
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--ternary-text-color);
+  margin: 10px;
+}

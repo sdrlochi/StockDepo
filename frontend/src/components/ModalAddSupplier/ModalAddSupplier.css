@@ -1,0 +1,14 @@
+.form-field{
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.form-field input {
+  font-size: x-large;
+}
+
+.form-field p {
+  color: #53A856;
+  margin: 0;
+}

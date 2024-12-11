@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+  font-family: 'Poppins';
+}
+
+:root{
+  --background-color: #EAEAEA;
+  --background-two: #FFFFFF;
+  --foreground-color: #4e8cbe;
+  --suppliers-background:  #faf9f9;
+  --primary-text-color: #3E4153;
+  --secondary-text-color: #FFFFFF;
+  --ternary-text-color: #5C5C5C;
+  --inventory-text-color: #4F5366;
+  --category-text-color: #333544;
+  --black-white-text: #000000;
+  --quaternary-text-color: #4F5366;
+  --shadow-color: #00000040;
+  --toggle-bg: #8fdb91f8;
+  --toggle-fg: #53A856;
+}
+
+[data-theme="dark"] {
+  --background-color: #0a0a0ad0;
+  --background-two: #5C5C5C;
+  --foreground-color: #53A856;
+  --suppliers-background:  #0a0a0ad0;
+  --primary-text-color: #f6f6f6;
+  --secondary-text-color: #0a0a0a;
+  --ternary-text-color: #EAEAEA;
+  --quaternary-text-color: #EAEAEA;
+  --inventory-text-color: #EAEAEA;
+  --category-text-color: #EAEAEA;
+  --black-white-text:  #FFFFFF;
+  --shadow-color:  #0a0a0a;
+  --toggle-bg: #1a531cf8;
+  --toggle-fg: #53A856;
+}
+
+body {
+  margin: 0 auto;
+  background-color: var(--background-color);
+}
+
+.App{
+  display: flex;
+}
+
+main {
+  background-color: var(--background-color);
+  width: 100%;
+  height: 100%;
+  max-width: 1980px;
+  max-height: 1080px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  main {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 767px){
+  main {
+    width: 50%;
+  }
+}
+
